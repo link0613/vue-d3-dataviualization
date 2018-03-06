@@ -1,0 +1,33 @@
+// Top navigation
+// Hide default border to remove 1px line.
+
+.navbar-fixed-top {
+  border: 0;
+}
+.navbar-logo {
+  position: relative;
+  top: .9em;
+  left: .5em;
+  height: 1.6em;
+}
+.navbar-icons {
+  a {
+    padding: .81em 1em !important;
+  }
+
+  i {
+    font-size: 1.8em;
+  }
+
+}
+.navbar-icons-grey {
+  background-color: #EEE;
+}
+.navbar-welcome {
+  position:relative;
+  top:-.25em;
+  margin-right: .75em;
+}
+.navbar-vertical-divider {
+  border-right: solid 1px $light-grey;
+}

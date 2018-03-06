@@ -1,0 +1,22 @@
+<div class="dynamic-table">
+  <div class="content-header row">
+    <span class="title no-padding">
+      Redemption Percentage by
+    </span>
+
+    <div class="col-lg-6">
+      <select>
+        <option value selected>Media Type</option>
+      </select>
+    </div>
+
+    <download csv-enabled="true"></download>
+  </div>
+
+  <div class="table-content" v-if="Object.keys(tableData).length > 0">
+    <table-content :datas="tableData"></table-content>
+  </div>
+  <div class="table-content" v-else="">
+    <p>No Filter</p>
+  </div>
+</div>

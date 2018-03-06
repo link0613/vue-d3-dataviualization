@@ -1,0 +1,217 @@
+// Dynamic Table styles
+.no-padding {
+  padding-right:0;
+  padding-left:0;
+}
+
+.title{
+  color: #4d92df;
+  float: left;
+}
+
+.dynamic-table select, .dynamic-table button{
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+.content-header{
+  margin: 0 40px;
+  padding: 20px 0;
+  font-size: 1.6em;
+}
+
+.content-header .fa-download{
+  font-size: 1.6em;
+}
+
+select{
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.filter,
+.filter:active,
+.filter:hover,
+.filter:focus,
+select,
+select:active,
+select:hover,
+select:focus{
+  outline: none !important;
+}
+
+.download{
+  cursor: pointer;
+  float: right;
+}
+
+// Category filter Modal Style
+.filter-category-modal {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: table;
+  transition: opacity 3s ease;
+}
+
+.modal-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.modal-container {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+  transition: all .3s ease;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.modal-header p {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.modal-header .header-icon{
+  margin-right: 0.5em;
+}
+
+.modal-header .close-icon{
+  float: right;
+  cursor: pointer;
+}
+
+.modal-body {
+  position: relative;
+  padding: 15px 40px;
+  height: 400px;
+  overflow: auto;
+}
+
+.modal-enter, .modal-leave {
+  opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave .modal-container {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+label{color: #4d92df; font-size: 12px; cursor: pointer;}
+input[type=checkbox] { display:none; } /* to hide the checkbox itself */
+input[type=checkbox] + label:before {font-family: FontAwesome; display: inline-block;}
+input[type=checkbox] + label:before { content: "\f0c8"; } /* unchecked icon */
+input[type=checkbox] + label:before { letter-spacing: 10px; } /* space between checkbox and label */
+input[type=checkbox]:checked + label:before { content: "\f14a"; } /* checked icon */
+
+.modal-footer .btn-default {
+  color: #4d92df;
+  background-color: #ffffff;
+  border-color: #4d92df;
+}
+
+.modal-footer .btn-primary {
+  color: #ffffff;
+  background-color: #4d92df;
+  border-color: #4d92df;
+}
+
+.modal-footer .btn-default:hover {
+  background-color: #e6e6e6;
+}
+
+.modal-footer .btn-primary:hover {
+  background-color: #337ab7;
+}
+
+// Table Style
+.table-content{
+  padding: 0 40px;
+  width: 100%;
+}
+
+.table-content p{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+table {
+  font-size:12px;
+  margin-bottom: 20px;
+  border-collapse: inherit;
+}
+
+.categoryName{
+  width: 300px !important;
+  text-align: left;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.empty{
+  width: 5px !important;
+  height: 5px !important;
+  padding: 0 !important;
+  background: #ffffff !important;
+  border: 0 !important;
+}
+
+.emptyRow{
+  height: 5px !important;
+  padding: 0 !important;
+  background: #ffffff !important;
+  border: 0 !important;
+}
+
+table .t-head td{
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  width: 20px;
+  background: #4d92df;
+}
+table tr {
+  text-align: center;
+  padding-left:20px;
+}
+table td:first-child {
+  text-align: left;
+  padding-left:20px;
+}
+table td {
+  padding:18px;
+  background: #ffffff;
+  border-top: 1px solid;
+}
+table tr.even td {
+  border-bottom: 1px solid;
+  background: #f6f6f6;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6));
+  background: -moz-linear-gradient(top,  #f8f8f8,  #f6f6f6);
+}
+table .border_left{
+  border-left: 1px solid;
+}
+table .border_right{
+  border-right: 1px solid;
+}

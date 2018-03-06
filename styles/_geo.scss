@@ -1,0 +1,147 @@
+// Geo styles
+
+.mysvg {
+  margin: 25px;
+}
+
+.mypath {
+  fill: none;
+  stroke: #76BF8A;
+  stroke-width: 3px;
+}
+
+.counties {
+  fill: none;
+}
+
+.states {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+.q0-9 {
+  fill: rgb(247, 251, 255);
+}
+
+.q1-9 {
+  fill: rgb(222, 235, 247);
+}
+
+.q2-9 {
+  fill: rgb(198, 219, 239);
+}
+
+.q3-9 {
+  fill: rgb(158, 202, 225);
+}
+
+.q4-9 {
+  fill: rgb(107, 174, 214);
+}
+
+.q5-9 {
+  fill: rgb(66, 146, 198);
+}
+
+.q6-9 {
+  fill: rgb(33, 113, 181);
+}
+
+.q7-9 {
+  fill: rgb(8, 81, 156);
+}
+
+.q8-9 {
+  fill: rgb(8, 48, 107);
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.browser text {
+  text-anchor: end;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+.legend tr {
+  border-bottom: 1px solid grey;
+}
+.legend tr:first-child {
+  border-top: 1px solid grey;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+.legend {
+  margin-bottom:76px;
+  display:inline-block;
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+.legend td {
+  padding:4px 5px;
+  vertical-align:bottom;
+}
+.legendFreq,
+.legendPerc {
+  align:right;
+  width:50px;
+}
+
+.stateFill {
+  fill: #ccc;
+  stroke: #fff;
+}
+
+/* Style for Custom Tooltip */
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 60px;
+  height: 28px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: white;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis--x path {
+  display: none;
+}
+
+
+.gradient-background{
+  background: #ddd; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#ddd, white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#ddd, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#ddd, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#ddd, white); /* Standard syntax */
+}
+
+.view-header{
+  background: white;
+}

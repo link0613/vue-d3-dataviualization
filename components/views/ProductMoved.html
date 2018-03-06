@@ -1,0 +1,26 @@
+<div id="home">
+  <navbar></navbar>
+  <div class="main-content">
+    <sidebar></sidebar>
+    <div class="main">
+      <loader v-show="isLoading"></loader>
+      <dashboard-summary></dashboard-summary>
+      <div class="page-content gradient-background">
+        <view-header>
+          <span>
+            <i class="fa fa-cubes"></i>Product Moved
+          </span>
+          <download pdf-enabled="true" csv-enabled="true" png-enabled="true"></download>
+        </view-header>
+        <div class="col-md-6">
+          <stacked-bar group-by-field='productmoved' label-field='Period Legend'></stacked-bar>
+        </div>
+        <div class="col-md-6">
+          <pie group-by-field='productmoved' label-field='Product Moved'></pie>
+        </div>
+      </div>
+      <page-footer></page-footer>
+    </div>
+  </div>
+
+</div>
